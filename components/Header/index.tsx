@@ -8,7 +8,11 @@ const Header = () => {
         Priyank Rajai
       </h1>
       <div className="flex gap-8 items-center justify-center mt-6 vsm:mt-0">
-        <a href="https://github.com/Ipriyankrajai" target="_blank">
+        <a
+          href="https://github.com/Ipriyankrajai"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"
@@ -24,6 +28,7 @@ const Header = () => {
         <a
           href="https://www.linkedin.com/in/priyank-rajai-806983117/"
           target="_blank"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +42,11 @@ const Header = () => {
             />
           </svg>
         </a>
-        <a href="https://twitter.com/thepriyankrajai" target="_blank">
+        <a
+          href="https://twitter.com/thepriyankrajai"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
