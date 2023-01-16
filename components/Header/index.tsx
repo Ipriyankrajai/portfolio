@@ -4,9 +4,9 @@ import React from "react";
 const Header = () => {
   return (
     <header className="vsm:flex vsm:justify-between vsm:items-center absolute top-5 w-full">
-      <h1 className="font-bold text-2xl md:text-3xl text-center">
-        Priyank Rajai
-      </h1>
+      <div className="font-bold text-2xl md:text-3xl text-center">
+        priyankrajai
+      </div>
       <div className="flex gap-8 items-center justify-center mt-6 vsm:mt-0">
         <a
           href="https://github.com/Ipriyankrajai"

@@ -27,3 +27,25 @@ body{
 .fav-underline{
  border-bottom: 5px solid var(--green);
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--dark-gray) var(--black);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--dark-gray);
+    border-radius: 10px;
+    /* border: 1px solid #ffffff; */
+  }
