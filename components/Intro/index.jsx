@@ -1,10 +1,11 @@
+import Link from "next/link";
 import React from "react";
 
 const Intro = () => {
   return (
     <section>
       <div className="pt-[200px] relative">
-        <div className="absolute top-[130px] left-[-0%] md:left-[-30%]">
+        <div className="absolute top-[130px] left-[-100%] vsm:left-[-53%] sm:left-[-53%] md:left-[-30%]">
           <svg xmlns="http://www.w3.org/2000/svg" width="530" height="129">
             <g fill="none" fill-rule="evenodd" stroke="#FFF" opacity=".25">
               <ellipse cx="265" cy="40" rx="264.5" ry="39.5" />
@@ -26,6 +27,11 @@ const Intro = () => {
           building accessible web apps that users love.
         </h2>
       </div>
+      <Link href="#contact-me">
+        <div className="mt-[40px] lg:[mt-60px] tracking-widest font-bold border-b-[2px] border-[#4ce19e] w-max pb-2 hover:text-[#4ce19e]">
+          CONTACT ME
+        </div>
+      </Link>
     </section>
   );
 };

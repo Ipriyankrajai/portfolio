@@ -50,7 +50,7 @@ const Skills = () => {
         <div className="grid grid-cols-1 text-center gap-9 md:grid-cols-2 md:text-left lg:grid-cols-3">
           {skillSet.map((skillDetails) => (
             <div key={skillDetails.id}>
-              <h3 className="text-4xl pb-4 font-bold">{skillDetails.name}</h3>
+              <h2 className="text-4xl pb-4 font-bold">{skillDetails.name}</h2>
               <p className="text-[16px] text-[#d9d9d9]">{skillDetails.exp}</p>
             </div>
           ))}
